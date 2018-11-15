@@ -1,0 +1,8 @@
+li {
+  color: white;
+}
+
+.right {
+  margin-left: auto;
+  display: inline-block;
+}

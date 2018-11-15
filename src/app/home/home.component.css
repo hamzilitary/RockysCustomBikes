@@ -1,0 +1,43 @@
+.carousel-inner > .item > img {
+  width:140px;
+  height:390px;
+   animation:move 20s infinite ease-in-out;
+
+
+}
+
+
+@keyframes move{
+0%{
+ transform: scale(1) rotate(0deg);
+}
+  100%{
+   transform: scale(2) rotate(0.1deg);
+
+  }
+
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 40px;
+    color: white;
+    font-family: Apple Chancery, cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.top-right {
+
+
+
+  color: white;
+  font-family: Apple Chancery, cursive;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+li{
+  font-family: Apple Chancery, cursive;
+  text-decoration: underline;
+}
