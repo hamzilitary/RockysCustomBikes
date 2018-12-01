@@ -9,16 +9,16 @@ import { Task } from '../models/task.model';
 })
 export class HomeComponent implements OnInit {
 
-    currentFocus: string = 'Brocks Bike Repair Site';
+    currentFocus: string = "Rocky's Custom Bikes";
     currentTime = new Date();
     month: number = this.currentTime.getMonth() + 1;
     day: number = this.currentTime.getDate();
     year: number = this.currentTime.getFullYear();
     tasks: Task[] = [
-       new Task('Dont drive on bumpy roads with pipin hot coffee'),
-       new Task('Take fish oil '),
-       new Task('Add README file to last few Angular repos on GitHub'),
-       new Task('Add more goals here')
+       new Task('Professional, Detailed, and Personalized Bike Builds'),
+       new Task('Serving Oceanside and surrounding area'),
+       new Task('Pick up and Drop off service available'),
+       new Task('By appointment only'),
      ];
 
 

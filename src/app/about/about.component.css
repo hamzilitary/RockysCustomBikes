@@ -1,7 +1,27 @@
-h1 {
+h2 {
   text-align: center;
   font-weight:bold;
+  color: white;
+
 }
 li {
   font-size: 20px;
+}
+p {
+  color: white;
+}
+i {
+  color: red;
+  text-align: center;
+}
+.container {
+  text-align:  center;
+  border: 2px solid #ccc;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  padding: 16px;
+
+
+
+  width: 100%;
 }
