@@ -1,5 +1,18 @@
-li {
+.navbar.navbar li a {
   color: white;
+}
+
+.navbar.navbar li a:visited {
+  background-color: black;
+
+}
+
+.navbar-brand {
+  color: red;
+}
+
+.navbar-brand a:hover {
+  color: red;
 }
 
 .right {

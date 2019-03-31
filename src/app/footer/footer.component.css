@@ -1,5 +1,7 @@
 footer {
   background: grey;
-  
+  position: relative;
+  padding-bottom: 80px;
+
 
 }

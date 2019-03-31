@@ -14,14 +14,17 @@ i {
   color: red;
   text-align: center;
 }
+
 .container {
   text-align:  center;
   border: 2px solid #ccc;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 5px;
-  padding: 16px;
-
-
-
+  padding: 0;
   width: 100%;
+}
+
+.container > .item > img {
+
+  position: relative;
 }
